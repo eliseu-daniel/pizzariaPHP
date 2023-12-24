@@ -25,14 +25,7 @@
    <div id="preview">
       <ul>
          <?php 
-            foreach($pedidos as $pedido)
-            { 
-         ?>
-               <li>
-                  <?= $pedido['pedidos'] ?>
-               </li>
-         <?php 
-            } 
+            $pedidos = $_GET['pedidos']; 
          ?>
       </ul>
    </div>
